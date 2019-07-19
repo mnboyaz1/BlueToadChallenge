@@ -1,0 +1,43 @@
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid slategray;
+}
+
+.inputStyle {
+  font-size: 20px;
+  padding: 3px;
+  display: inline-block;
+  width: 30%;
+  color: #7b7979;
+}
+
+.inputStyle:invalid {
+  border: 2px solid red;
+}
+
+.inputStyle:valid {
+  border: 2px solid aquamarine;
+}
+
+.searchWrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #7acec3;
+}
+
+.label {
+  padding-right: 5px;
+}
+
+.button {
+  padding: 9px;
+  margin-left: -1px;
+}
+
+.button:hover {
+  background-color: aquamarine;
+}
